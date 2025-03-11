@@ -1,103 +1,278 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+import React from 'react';
+import {
+  FiUser,
+  FiShield,
+  FiTag,
+  FiTerminal,
+  FiServer,
+  FiCode,
+  FiLayers,
+  FiLock,
+  FiUserPlus,
+  FiRefreshCw,
+  FiThumbsUp,
+  FiTool,
+  FiHeadphones,
+  FiUserCheck,
+  FiMessageCircle,
+  FiDatabase,
+  FiCloud,
+  FiEdit3,
+} from 'react-icons/fi';
+import { SiPhp, SiNodedotjs } from 'react-icons/si';
+
+const HomePage = () => {
+  // Features array with related icons for each feature
+  const features = [
+    { title: "Admin, User & Email interface", Icon: FiUser },
+    { title: "Shield Cyber-security system", Icon: FiShield },
+    { title: "Custom branding", Icon: FiTag },
+    { title: "Easy SwordPress Management", Icon: FiEdit3 },
+    { title: "Powerful HTTP API & CLI", Icon: FiTerminal },
+    { title: "Runs on both VPS & Physical servers", Icon: FiServer },
+    { title: "Ideal for Developers & Hosting Companies", Icon: FiCode },
+    { title: "Apache, Nginx, Open-LiteSpeed", Icon: FiLayers },
+    { title: "Multiple PHP versions", Icon: SiPhp },
+    { title: "Let’s Encrypt SSL Integration", Icon: FiLock },
+    { title: "NodeJS Support", Icon: SiNodedotjs },
+    { title: "Manage sub-admins & sub-users", Icon: FiUserPlus },
+    { title: "Automated Migrations from cPanel", Icon: FiRefreshCw },
+    { title: "Hassle-Free Management", Icon: FiThumbsUp },
+    { title: "Free Installation & Initial Server Setup", Icon: FiTool },
+    { title: "24/7/365 Technical Support", Icon: FiHeadphones },
+    { title: "Optional Fully Managed Service", Icon: FiUserCheck },
+    { title: "Optional End User Live Chat Support", Icon: FiMessageCircle },
+    { title: "Automatic Software Updates", Icon: FiCloud },
+    { title: "Manage Local & Remote Backups", Icon: FiDatabase },
+  ];
+
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
+    <div className="font-sans antialiased bg-gray-50">
+      {/* Hero Section with Modern Design */}
+      <section className="bg-gradient-to-br from-blue-100 to-blue-300 py-20 relative overflow-hidden">
+        {/* Background Overlay */}
+        <div
+          className="absolute inset-0 opacity-20"
+          style={{
+            backgroundImage: 'url(/hero-bg.svg)', // Replace with your SVG or remove for a solid gradient
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
         />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+        <div className="max-w-7xl mx-auto px-4 relative z-10 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          {/* Left Column - Hero Text & Call to Action */}
+          <div className="text-left">
+            <h1 className="text-4xl md:text-4xl font-extrabold text-gray-900 leading-tight mb-4">
+              <span className="text-blue-700">SPanel</span> - Your Affordable Alternative to cPanel for Web Hosting Control
+            </h1>
+            <p className="text-xl text-gray-700 mb-8">
+            Explore Spanel.in for Spanel.io, the efficient, cost-effective alternative to cPanel. Discover easy server management, seamless website control, and powerful features without the high costs. Perfect for web hosting providers and developers!
+            </p>
+            <div className="space-x-4">
+              <a
+                href="https://imp.scalahosting.com/spanel"
+                target="_blank"
+                className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-xl transition-colors duration-300"
+              >
+                Get Started Free
+              </a>
+              <a
+                href="https://imp.scalahosting.com/spanel"
+                target="_blank"
+                className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-3 px-6 rounded-lg border border-blue-500 hover:border-transparent transition-colors duration-300"
+              >
+                Learn More
+              </a>
+            </div>
+          </div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+          {/* Right Column - Hero Image/Ad */}
+          <div className="flex justify-center">
+            <a
+              rel="sponsored"
+              href="https://imp.scalahosting.com/c/5858687/1742657/18136"
+              target="_top"
+              id="1742657"
+            >
+              <img
+                src="//a.impactradius-go.com/display-ad/18136-1742657"
+                alt="ScalaHosting Ad"
+                width="300"
+                height="300"
+                className="rounded-xl shadow-lg"
+              />
+            </a>
+            <img
+              height="0"
+              width="0"
+              src="https://imp.pxf.io/i/5858687/1742657/18136"
+              style={{ position: "absolute", visibility: "hidden" }}
+              alt=""
             />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </section>
+
+      {/* Buttons Section - More Subtle */}
+      <section className="py-12 bg-gray-100">
+        <div className="max-w-7xl mx-auto px-4 text-center">
+          <h2 className="text-3xl font-semibold text-gray-800 mb-6">
+            Explore SPanel Further
+          </h2>
+          <div className="flex justify-center space-x-6">
+            <a
+              href="https://imp.scalahosting.com/spanel"
+              target="_blank"
+              className="bg-blue-500 hover:bg-blue-600 text-white py-2.5 px-5 rounded-md shadow-sm transition-colors duration-300"
+            >
+              Get Started
+            </a>
+            <a
+              href="https://imp.scalahosting.com/spanel"
+              target="_blank"
+              className="bg-gray-500 hover:bg-gray-600 text-white py-2.5 px-5 rounded-md shadow-sm transition-colors duration-300"
+            >
+              Learn More
+            </a>
+            <a
+              href="https://imp.scalahosting.com/spanel"
+              target="_blank"
+              className="bg-green-500 hover:bg-green-600 text-white py-2.5 px-5 rounded-md shadow-sm transition-colors duration-300"
+            >
+              Free Trial
+            </a>
+            <a
+              href="https://imp.scalahosting.com/spanel"
+              target="_blank"
+              className="bg-yellow-500 hover:bg-yellow-600 text-gray-800 py-2.5 px-5 rounded-md shadow-sm transition-colors duration-300"
+            >
+              Contact Us
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Ad Section 2: Banner Ad - More Integrated */}
+      <section className="py-10 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 flex justify-center">
+          <div className="rounded-md overflow-hidden shadow-md">
+            <a
+              rel="sponsored"
+              href="https://imp.scalahosting.com/c/5858687/1742659/18136"
+              target="_top"
+              id="1742659"
+            >
+              <img
+                src="//a.impactradius-go.com/display-ad/18136-1742659"
+                alt="Banner Ad"
+                width="468"
+                height="60"
+                className="block"
+              />
+            </a>
+            <img
+              height="0"
+              width="0"
+              src="https://imp.pxf.io/i/5858687/1742659/18136"
+              style={{ position: "absolute", visibility: "hidden" }}
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Features Section - Modern Cards */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
+            Powerful Features for Complete Hosting Control
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+            {features.map((feature, index) => {
+              const Icon = feature.Icon;
+              return (
+                <div
+                  key={index}
+                  className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 p-6 flex space-x-6"
+                >
+                  <div className="flex-shrink-0">
+                    <div className="p-4 bg-blue-500 text-white rounded-full">
+                      <Icon className="w-7 h-7" />
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-800 mb-2">
+                      {feature.title}
+                    </h3>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Ad Section 3: Wide Banner Ad - Integrated */}
+      <section className="py-10 bg-gray-100">
+        <div className="max-w-7xl mx-auto px-4 flex justify-center">
+          <div className="rounded-md overflow-hidden shadow-md">
+            <a
+              rel="sponsored"
+              href="https://imp.scalahosting.com/c/5858687/1736987/18136"
+              target="_top"
+              id="1736987"
+            >
+              <img
+                src="//a.impactradius-go.com/display-ad/18136-1736987"
+                alt="Wide Banner Ad"
+                width="1248"
+                height="235"
+                className="block"
+              />
+            </a>
+            <img
+              height="0"
+              width="0"
+              src="https://imp.pxf.io/i/5858687/1736987/18136"
+              style={{ position: "absolute", visibility: "hidden" }}
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Ad Section 4: Full-Width Huge Ad - Slightly Less Prominent */}
+      <section className="py-10 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="flex justify-center">
+            <a
+              rel="sponsored"
+              href="https://imp.scalahosting.com/c/5858687/1736996/18136"
+              target="_top"
+              id="1736996"
+            >
+              <img
+                src="//a.impactradius-go.com/display-ad/18136-1736996"
+                alt="Huge Ad"
+                width="1920"
+                height="2467"
+                className="w-full h-auto rounded-md shadow-lg"
+              />
+            </a>
+            <img
+              height="0"
+              width="0"
+              src="https://imp.pxf.io/i/5858687/1736996/18136"
+              style={{ position: "absolute", visibility: "hidden" }}
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
     </div>
   );
-}
+};
+
+export default HomePage;
