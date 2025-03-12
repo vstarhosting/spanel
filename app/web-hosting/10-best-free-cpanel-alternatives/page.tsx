@@ -1,8 +1,8 @@
 export const metadata = {
     title:
-      "10 Free cPanel Alternatives for Web Hosting Control Panels | Spanel.in",
+      "10 Free cPanel Alternatives for Web Hosting Control Panels",
     description:
-      "Compare 10 free alternatives to cPanel including CloudPanel, VestaCP, ISPConfig, HestiaCP, FastPanel, ZPanel, KeyHelp, aaPanel, CyberPanel, and CentOS Web Panel.",
+      "Compare 10 free alternatives to cPanel including CloudPanel, VestaCP, ISPConfig, HestiaCP, FastPanel, ZPanel, KeyHelp, aaPanel, CyberPanel, and CentOS.",
   };
   
   const tableData = [
