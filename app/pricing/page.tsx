@@ -169,7 +169,28 @@ const Pricing = () => {
           </div>
         </div>
       </section>
+    {/* Ad Section 3: Wide Banner Ad - Integrated */}
+    <section className="py-10 bg-gray-100">
+        <div className="max-w-7xl mx-auto px-4 flex justify-center">
+          <div className="rounded-md overflow-hidden shadow-md">
+            <a
+              rel="sponsored"
+              href="https://imp.scalahosting.com/c/5858687/1736987/18136"
+              target="_top"
+              id="1736987"
+            >
+              <img
+                src="/assets/SPanel_banner_1248_235.png"
+                alt="Wide Banner Ad"
+                width="1248"
+                height="235"
+                className="block"
+              />
+            </a>
 
+          </div>
+        </div>
+      </section>
       {/* Pricing Section with Toggle Switch */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">

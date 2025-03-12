@@ -25,6 +25,12 @@ const Header = () => {
             <li>
               <Link href="/pricing">Pricing</Link>
             </li>
+            <li>
+              <Link href="/web-hosting/10-best-free-cpanel-alternatives">Free cPanel Alternatives</Link>
+            </li>
+            <li>
+              <Link href="/contact">Contact</Link>
+            </li>
           </ul>
         </nav>
         {/* Mobile Navigation Toggle */}
@@ -57,6 +63,9 @@ const Header = () => {
               </li>
               <li>
                 <Link href="/pricing" onClick={() => setIsOpen(false)}>Pricing</Link>
+              </li>
+              <li>
+                <Link href="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
               </li>
             </ul>
           </nav>

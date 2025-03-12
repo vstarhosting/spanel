@@ -345,18 +345,12 @@ const Features = () => {
               id="1742659"
             >
               <img
-                src="//a.impactradius-go.com/display-ad/18136-1742671"
+                src="/assets/Convert-AWS-Hetzner-Google-Cloud-into-a-fully-managed-hosting-service-with-SPanel-468x60.png"
                 alt=""
-                className="w-full max-w-[250px] h-auto"
+                className="w-full max-w-[468px] h-auto"
               />
             </a>
-            <img
-              height="0"
-              width="0"
-              src="https://imp.pxf.io/i/5858687/1742671/18136"
-              style={{ position: "absolute", visibility: "hidden" }}
-              alt=""
-            />
+           
           </div>
         </section>
 
@@ -406,18 +400,12 @@ const Features = () => {
               id="1742654"
             >
               <img
-                src="//a.impactradius-go.com/display-ad/18136-1742671"
+                src="/assets/Convert-AWS-Hetzner-Google-Cloud-into-a-fully-managed-hosting-service-with-SPanel-468x60.png"
                 alt=""
-                className="w-full max-w-[250px] h-auto"
+                className="w-full max-w-[468px] h-auto"
               />
             </a>
-            <img
-              height="0"
-              width="0"
-              src="https://imp.pxf.io/i/5858687/1742671/18136"
-              style={{ position: "absolute", visibility: "hidden" }}
-              alt=""
-            />
+            
           </div>
         </section>
 
@@ -466,19 +454,13 @@ const Features = () => {
               target="_top"
               id="1742651"
             >
-              <img
-                src="//a.impactradius-go.com/display-ad/18136-1742651"
+             <img
+                src="/assets/Convert-AWS-Hetzner-Google-Cloud-into-a-fully-managed-hosting-service-with-SPanel-468x60.png"
                 alt=""
-                className="w-full max-w-[250px] h-auto"
+                className="w-full max-w-[468px] h-auto"
               />
             </a>
-            <img
-              height="0"
-              width="0"
-              src="https://imp.pxf.io/i/5858687/1742651/18136"
-              style={{ position: "absolute", visibility: "hidden" }}
-              alt=""
-            />
+            
           </div>
         </section>
       </div>

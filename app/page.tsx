@@ -97,20 +97,14 @@ const HomePage = () => {
               id="1742657"
             >
               <img
-                src="//a.impactradius-go.com/display-ad/18136-1742657"
+                src="/assets/Convert-AWS-Hetzner-Google-Cloud-into-a-fully-managed-hosting-service-with-SPanel-250x250.png"
                 alt="ScalaHosting Ad"
                 width="300"
                 height="300"
                 className="rounded-xl shadow-lg"
               />
             </a>
-            <img
-              height="0"
-              width="0"
-              src="https://imp.pxf.io/i/5858687/1742657/18136"
-              style={{ position: "absolute", visibility: "hidden" }}
-              alt=""
-            />
+           
           </div>
         </div>
       </section>
@@ -165,20 +159,14 @@ const HomePage = () => {
               id="1742659"
             >
               <img
-                src="//a.impactradius-go.com/display-ad/18136-1742659"
+                src="/assets/Convert-AWS-Hetzner-Google-Cloud-into-a-fully-managed-hosting-service-with-SPanel-468x60.png"
                 alt="Banner Ad"
                 width="468"
                 height="60"
                 className="block"
               />
             </a>
-            <img
-              height="0"
-              width="0"
-              src="https://imp.pxf.io/i/5858687/1742659/18136"
-              style={{ position: "absolute", visibility: "hidden" }}
-              alt=""
-            />
+
           </div>
         </div>
       </section>
@@ -225,20 +213,14 @@ const HomePage = () => {
               id="1736987"
             >
               <img
-                src="//a.impactradius-go.com/display-ad/18136-1736987"
+                src="/assets/SPanel_banner_1248_235.png"
                 alt="Wide Banner Ad"
                 width="1248"
                 height="235"
                 className="block"
               />
             </a>
-            <img
-              height="0"
-              width="0"
-              src="https://imp.pxf.io/i/5858687/1736987/18136"
-              style={{ position: "absolute", visibility: "hidden" }}
-              alt=""
-            />
+
           </div>
         </div>
       </section>
@@ -254,20 +236,14 @@ const HomePage = () => {
               id="1736996"
             >
               <img
-                src="//a.impactradius-go.com/display-ad/18136-1736996"
+                src="/assets/SPanel_user_interface.png"
                 alt="Huge Ad"
                 width="1920"
                 height="2467"
                 className="w-full h-auto rounded-md shadow-lg"
               />
             </a>
-            <img
-              height="0"
-              width="0"
-              src="https://imp.pxf.io/i/5858687/1736996/18136"
-              style={{ position: "absolute", visibility: "hidden" }}
-              alt=""
-            />
+      
           </div>
         </div>
       </section>
