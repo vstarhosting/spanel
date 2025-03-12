@@ -56,7 +56,7 @@ const HomePage = () => {
         <div
           className="absolute inset-0 opacity-20"
           style={{
-            backgroundImage: 'url(/hero-bg.svg)', // Replace with your SVG or remove for a solid gradient
+           backgroundImage: 'url(/hero-b.jpeg)', // Replace with your SVG or remove for a solid gradient
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
