@@ -63,7 +63,10 @@ const Header = () => {
               </li>
               <li>
                 <Link href="/pricing" onClick={() => setIsOpen(false)}>Pricing</Link>
-              </li>
+              </li>            
+              <li>
+                <Link href="/web-hosting/10-best-free-cpanel-alternatives" onClick={() => setIsOpen(false)}>Free cPanel Alternatives</Link>
+              </li> 
               <li>
                 <Link href="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
               </li>

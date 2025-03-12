@@ -70,22 +70,23 @@ const HomePage = () => {
             <p className="text-xl text-gray-700 mb-8">
             Explore Spanel.in for Spanel.io, the efficient, cost-effective alternative to cPanel. Discover easy server management, seamless website control, and powerful features without the high costs. Perfect for web hosting providers and developers!
             </p>
-            <div className="space-x-4">
-              <a
-                href="https://imp.scalahosting.com/spanel"
-                target="_blank"
-                className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-xl transition-colors duration-300"
-              >
-                Get Started Free
-              </a>
-              <a
-                href="https://imp.scalahosting.com/spanel"
-                target="_blank"
-                className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-3 px-6 rounded-lg border border-blue-500 hover:border-transparent transition-colors duration-300"
-              >
-                Learn More
-              </a>
-            </div>
+            <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0 items-center justify-center">
+  <a
+    href="https://imp.scalahosting.com/spanel"
+    target="_blank"
+    className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-xl transition-colors duration-300 w-full sm:w-auto text-center"
+  >
+    Get Started Free
+  </a>
+  <a
+    href="https://imp.scalahosting.com/spanel"
+    target="_blank"
+    className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-3 px-6 rounded-lg border border-blue-500 hover:border-transparent transition-colors duration-300 w-full sm:w-auto text-center"
+  >
+    Learn More
+  </a>
+</div>
+
           </div>
 
           {/* Right Column - Hero Image/Ad */}
@@ -109,44 +110,45 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Buttons Section - More Subtle */}
-      <section className="py-12 bg-gray-100">
-        <div className="max-w-7xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-semibold text-gray-800 mb-6">
-            Explore SPanel Further
-          </h2>
-          <div className="flex justify-center space-x-6">
-            <a
-              href="https://imp.scalahosting.com/spanel"
-              target="_blank"
-              className="bg-blue-500 hover:bg-blue-600 text-white py-2.5 px-5 rounded-md shadow-sm transition-colors duration-300"
-            >
-              Get Started
-            </a>
-            <a
-              href="https://imp.scalahosting.com/spanel"
-              target="_blank"
-              className="bg-gray-500 hover:bg-gray-600 text-white py-2.5 px-5 rounded-md shadow-sm transition-colors duration-300"
-            >
-              Learn More
-            </a>
-            <a
-              href="https://imp.scalahosting.com/spanel"
-              target="_blank"
-              className="bg-green-500 hover:bg-green-600 text-white py-2.5 px-5 rounded-md shadow-sm transition-colors duration-300"
-            >
-              Free Trial
-            </a>
-            <a
-              href="https://imp.scalahosting.com/spanel"
-              target="_blank"
-              className="bg-yellow-500 hover:bg-yellow-600 text-gray-800 py-2.5 px-5 rounded-md shadow-sm transition-colors duration-300"
-            >
-              Contact Us
-            </a>
-          </div>
-        </div>
-      </section>
+    {/* Buttons Section - Responsive & Mobile Friendly */}
+<section className="py-12 bg-gray-100">
+  <div className="max-w-7xl mx-auto px-4 text-center">
+    <h2 className="text-3xl font-semibold text-gray-800 mb-6">
+      Explore SPanel Further
+    </h2>
+    <div className="flex flex-wrap justify-center gap-4">
+      <a
+        href="https://imp.scalahosting.com/spanel"
+        target="_blank"
+        className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 md:py-2.5 md:px-5 rounded-md shadow-sm transition-colors duration-300 w-full sm:w-auto"
+      >
+        Get Started
+      </a>
+      <a
+        href="https://imp.scalahosting.com/spanel"
+        target="_blank"
+        className="bg-gray-500 hover:bg-gray-600 text-white py-2 px-4 md:py-2.5 md:px-5 rounded-md shadow-sm transition-colors duration-300 w-full sm:w-auto"
+      >
+        Learn More
+      </a>
+      <a
+        href="https://imp.scalahosting.com/spanel"
+        target="_blank"
+        className="bg-green-500 hover:bg-green-600 text-white py-2 px-4 md:py-2.5 md:px-5 rounded-md shadow-sm transition-colors duration-300 w-full sm:w-auto"
+      >
+        Free Trial
+      </a>
+      <a
+        href="https://imp.scalahosting.com/spanel"
+        target="_blank"
+        className="bg-yellow-500 hover:bg-yellow-600 text-gray-800 py-2 px-4 md:py-2.5 md:px-5 rounded-md shadow-sm transition-colors duration-300 w-full sm:w-auto"
+      >
+        Contact Us
+      </a>
+    </div>
+  </div>
+</section>
+
 
       {/* Ad Section 2: Banner Ad - More Integrated */}
       <section className="py-10 bg-gray-50">
