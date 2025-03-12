@@ -1,9 +1,4 @@
-export const metadata = {
-    title:
-      "10 Free cPanel Alternatives for Web Hosting Control Panels",
-    description:
-      "Compare 10 free alternatives to cPanel including CloudPanel, VestaCP, ISPConfig, HestiaCP, FastPanel, ZPanel, KeyHelp, aaPanel, CyberPanel, and CentOS.",
-  };
+
   
   const tableData = [
     {
@@ -111,6 +106,43 @@ export const metadata = {
   export default function CPanelAlternativesPage() {
     return (
       <div className="container mx-auto px-4 py-8">
+
+
+<section className="bg-gradient-to-br from-blue-100 to-blue-300 py-20 relative overflow-hidden">
+  {/* Background Overlay */}
+  <div
+    className="absolute inset-0 opacity-20"
+    style={{
+      backgroundImage: 'url(/hero-b.jpeg)',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+    }}
+  />
+
+  <div className="max-w-7xl mx-auto px-4 relative z-10 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+    {/* Left Column - Hero Text & Call to Action */}
+    <div className="text-left">
+      <h1 className="text-4xl md:text-4xl font-extrabold text-gray-900 leading-tight mb-4">
+        <span className="text-blue-700">10</span> - Free cPanel Alternatives for Web Hosting Control Panels
+      </h1>
+      <p className="text-xl text-gray-700 mb-8">
+        Discover the best free alternatives to cPanel for managing web hosting. These control panels provide powerful features for server management without the high cost.
+      </p>
+    </div>
+
+    {/* Right Column - Hero Image */}
+    <div className="flex justify-center">
+      <img
+        src="/free-cpanel-alternatives.webp"
+        alt="Free cPanel Alternatives"
+        title="Free cPanel Alternatives"
+        className="rounded-xl shadow-lg w-1/2 max-w-[250px]"
+      />
+    </div>
+  </div>
+</section>
+
+        
         <h1 className="text-4xl font-bold mb-6 text-center">
           10 Free cPanel Alternatives for Web Hosting Control Panels
         </h1>
@@ -175,7 +207,8 @@ export const metadata = {
             </tbody>
           </table>
         </div>
-  
+
+
         {/* Detailed Information Sections */}
         <div className="space-y-10">
           {tableData.map((panel, index) => (
