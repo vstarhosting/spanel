@@ -20,6 +20,9 @@ const Header = () => {
               <Link href="/">Home</Link>
             </li>
             <li>
+              <Link href="/spanel-vs-cpanel-comparison">SPanel vs cPanel</Link>
+            </li>
+            <li>
               <Link href="/features">Features</Link>
             </li>
             <li>
@@ -57,6 +60,9 @@ const Header = () => {
             <ul className="flex flex-col space-y-2 px-4 py-2 text-gray-700 font-medium">
               <li>
                 <Link href="/" onClick={() => setIsOpen(false)}>Home</Link>
+              </li>
+              <li>
+                <Link href="/spanel-vs-cpanel-comparison" onClick={() => setIsOpen(false)}>SPanel vs cPanel</Link>
               </li>
               <li>
                 <Link href="/features" onClick={() => setIsOpen(false)}>Features</Link>
