@@ -63,67 +63,67 @@ export default function SPanelVsCPanelComparison() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="bg-white hover:bg-gray-50 transition">
+                <tr className="bg-white text-black hover:bg-gray-50 transition">
                   <td className="px-4 py-2">Ease of Use</td>
                   <td className="px-4 py-2">5/5</td>
                   <td className="px-4 py-2">5/5</td>
                 </tr>
-                <tr className="bg-gray-100 hover:bg-gray-50 transition">
+                <tr className="bg-gray-100 text-black hover:bg-gray-50 transition">
                   <td className="px-4 py-2">Resource Consumption</td>
                   <td className="px-4 py-2">Lightweight</td>
                   <td className="px-4 py-2">Resource-Heavy</td>
                 </tr>
-                <tr className="bg-white hover:bg-gray-50 transition">
+                <tr className="bg-white text-black hover:bg-gray-50 transition">
                   <td className="px-4 py-2">Security System</td>
                   <td className="px-4 py-2">SShield</td>
                   <td className="px-4 py-2">Standard</td>
                 </tr>
-                <tr className="bg-gray-100 hover:bg-gray-50 transition">
+                <tr className="bg-gray-100 text-black hover:bg-gray-50 transition">
                   <td className="px-4 py-2">WordPress Management</td>
                   <td className="px-4 py-2">SWordPress Manager</td>
                   <td className="px-4 py-2">Basic Installer</td>
                 </tr>
-                <tr className="bg-white hover:bg-gray-50 transition">
+                <tr className="bg-white text-black hover:bg-gray-50 transition">
                   <td className="px-4 py-2">Branding</td>
                   <td className="px-4 py-2">Yes</td>
                   <td className="px-4 py-2">Yes</td>
                 </tr>
-                <tr className="bg-gray-100 hover:bg-gray-50 transition">
+                <tr className="bg-gray-100 text-black hover:bg-gray-50 transition">
                   <td className="px-4 py-2">Multiple PHP Versions</td>
                   <td className="px-4 py-2">Yes</td>
                   <td className="px-4 py-2">Yes</td>
                 </tr>
-                <tr className="bg-white hover:bg-gray-50 transition">
+                <tr className="bg-white text-black hover:bg-gray-50 transition">
                   <td className="px-4 py-2">Automated Backups</td>
                   <td className="px-4 py-2">Yes</td>
                   <td className="px-4 py-2">Yes</td>
                 </tr>
-                <tr className="bg-gray-100 hover:bg-gray-50 transition">
+                <tr className="bg-gray-100 text-black hover:bg-gray-50 transition">
                   <td className="px-4 py-2">Apache Support</td>
                   <td className="px-4 py-2">Yes</td>
                   <td className="px-4 py-2">Yes</td>
                 </tr>
-                <tr className="bg-white hover:bg-gray-50 transition">
+                <tr className="bg-white text-black hover:bg-gray-50 transition">
                   <td className="px-4 py-2">Nginx Support</td>
                   <td className="px-4 py-2">Yes</td>
                   <td className="px-4 py-2">No</td>
                 </tr>
-                <tr className="bg-gray-100 hover:bg-gray-50 transition">
+                <tr className="bg-gray-100 text-black hover:bg-gray-50 transition">
                   <td className="px-4 py-2">OpenLiteSpeed Support</td>
                   <td className="px-4 py-2">Yes</td>
                   <td className="px-4 py-2">No</td>
                 </tr>
-                <tr className="bg-white hover:bg-gray-50 transition">
+                <tr className="bg-white text-black hover:bg-gray-50 transition">
                   <td className="px-4 py-2">LiteSpeed Enterprise</td>
                   <td className="px-4 py-2">Yes</td>
                   <td className="px-4 py-2">Yes</td>
                 </tr>
-                <tr className="bg-gray-100 hover:bg-gray-50 transition">
+                <tr className="bg-gray-100 text-black hover:bg-gray-50 transition">
                   <td className="px-4 py-2">SpamAssassin</td>
                   <td className="px-4 py-2">Yes</td>
                   <td className="px-4 py-2">Yes</td>
                 </tr>
-                <tr className="bg-white hover:bg-gray-50 transition">
+                <tr className="bg-white text-black hover:bg-gray-50 transition">
                   <td className="px-4 py-2">SSH Access Management</td>
                   <td className="px-4 py-2">Yes</td>
                   <td className="px-4 py-2">Yes</td>
@@ -238,22 +238,22 @@ export default function SPanelVsCPanelComparison() {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="bg-gray-100">
+                  <tr className="bg-gray-100 text-black">
                     <td className="px-4 py-2 border">Sole</td>
                     <td className="px-4 py-2 border">$26 /mo</td>
                     <td className="px-4 py-2 border">Only One</td>
                   </tr>
-                  <tr className="bg-gray-100">
+                  <tr className="bg-gray-100 text-black">
                     <td className="px-4 py-2 border">Admin</td>
                     <td className="px-4 py-2 border">$32.99 /mo</td>
                     <td className="px-4 py-2 border">Up to 5 Accounts</td>
                   </tr>
-                  <tr>
+                  <tr className="bg-gray-100 text-black">
                     <td className="px-4 py-2 border">Pro</td>
                     <td className="px-4 py-2 border">$46.99 /mo</td>
                     <td className="px-4 py-2 border">Up to 30 Accounts</td>
                   </tr>
-                  <tr className="bg-gray-100">
+                  <tr className="bg-gray-100 text-black">
                     <td className="px-4 py-2 border">Premier</td>
                     <td className="px-4 py-2 border">$65.99 /mo</td>
                     <td className="px-4 py-2 border">Up to 100 Accounts</td>
@@ -278,17 +278,17 @@ export default function SPanelVsCPanelComparison() {
                     </tr>
                   </thead>
                   <tbody>
-                    <tr className="bg-gray-100">
+                  <tr className="bg-gray-100 text-black">
                       <td className="px-4 py-2 border">Entry</td>
                       <td className="px-4 py-2 border">$9.95 /mo</td>
                       <td className="px-4 py-2 border">Up to 5 Accounts</td>
                     </tr>
-                    <tr>
+                    <tr className="bg-gray-100 text-black">
                       <td className="px-4 py-2 border">Pro</td>
                       <td className="px-4 py-2 border">$14.95 /mo</td>
                       <td className="px-4 py-2 border">Up to 30 Accounts</td>
                     </tr>
-                    <tr className="bg-gray-100">
+                    <tr className="bg-gray-100 text-black">
                       <td className="px-4 py-2 border">Agency</td>
                       <td className="px-4 py-2 border">$19.95 /mo</td>
                       <td className="px-4 py-2 border">Up to 100 Accounts</td>
@@ -311,17 +311,17 @@ export default function SPanelVsCPanelComparison() {
                     </tr>
                   </thead>
                   <tbody>
-                    <tr className="bg-gray-100">
+                  <tr className="bg-gray-100 text-black">
                       <td className="px-4 py-2 border">Entry</td>
                       <td className="px-4 py-2 border">$19.95 /mo</td>
                       <td className="px-4 py-2 border">Up to 5 Accounts</td>
                     </tr>
-                    <tr>
+                    <tr className="bg-gray-100 text-black">
                       <td className="px-4 py-2 border">Pro</td>
                       <td className="px-4 py-2 border">$24.95 /mo</td>
                       <td className="px-4 py-2 border">Up to 30 Accounts</td>
                     </tr>
-                    <tr className="bg-gray-100">
+                    <tr className="bg-gray-100 text-black">
                       <td className="px-4 py-2 border">Agency</td>
                       <td className="px-4 py-2 border">$39.95 /mo</td>
                       <td className="px-4 py-2 border">Up to 100 Accounts</td>
