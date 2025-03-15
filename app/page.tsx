@@ -65,10 +65,10 @@ const HomePage = () => {
           {/* Left Column - Hero Text & Call to Action */}
           <div className="text-left">
             <h1 className="text-4xl md:text-4xl font-extrabold text-gray-900 leading-tight mb-4">
-              <span className="text-blue-700">SPanel</span> - Your Affordable Alternative to cPanel for Web Hosting Control
+              <span className="text-blue-700">SPanel</span> - Your Affordable Alternative to cPanel for Web Hosting Control Panel as SPanel
             </h1>
             <p className="text-xl text-gray-700 mb-8">
-            Explore Spanel.in for Spanel.io, the efficient, cost-effective alternative to cPanel. Discover easy server management, seamless website control, and powerful features without the high costs. Perfect for web hosting providers and developers!
+            Look at Spanel.in for Spanel.io, the effective and affordable alternative for cPanel. Learn about advanced features, seamless website control, and powerful features without the high costs. Ideal for developers and web hosting companies!
             </p>
             <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0 items-center justify-center">
   <a
