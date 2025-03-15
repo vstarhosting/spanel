@@ -25,7 +25,7 @@ export default function SPanelVsCPanelComparison() {
           <div className="relative z-10 flex flex-col md:flex-row items-center justify-between p-8">
             <div className="text-center md:text-left">
               <h1 className="text-5xl font-extrabold text-white drop-shadow-lg">
-              SPanel vs cPanel
+              <strong>SPanel vs cPanel</strong>
               </h1>
               <p className="mt-4 text-xl text-white drop-shadow-md">
               Features, Pricing & Comparison
@@ -41,6 +41,7 @@ export default function SPanelVsCPanelComparison() {
               <img
                 src="/assets/spanel-vs-cpanel.jpg"
                 alt="SPanel vs cPanel"
+                title="SPanel vs cPanel"
                 className="w-48 md:w-64 rounded-lg shadow-2xl border-4 border-white"
               />
             </div>

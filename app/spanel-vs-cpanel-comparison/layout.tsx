@@ -1,6 +1,7 @@
 export const metadata = {
     title: 'SPanel vs cPanel: Features, Pricing & Comparison',
-    description: 'Compare SPanel and cPanel in terms of features, pricing, security, and ease of use. Find the best hosting control panel for your needs.',
+    description: 'Compare SPanel vs cPanel in terms of features, pricing, security, and ease of use. Find the best hosting control panel for your needs.',
+    canonical: 'https://spanel.in/spanel-vs-cpanel-comparison',
 };
 
   
